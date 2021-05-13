@@ -1,6 +1,6 @@
 {
   "name": "instantiation",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "提取自 vscode 的依赖注入实现",
   "main": "dist/src/index.js",
   "dependencies": {
@@ -17,6 +17,7 @@
     "test": "npm run build && mocha --require ts-node/register -u tdd test/**/*.test.ts",
     "prepublishOnly": "npm run test"
   },
-  "author": "",
+  "typings": "dist/src/index.d.ts",
+  "author": "wmeng17@gmail.com",
   "license": "ISC"
 }
